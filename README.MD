@@ -1,8 +1,8 @@
 ```markdown
-# Plant Disease Detection  
+# Plant Disease Detection
 
 A Streamlit web application that uses a deep learning model (**InceptionV3**) to detect plant diseases from leaf images.  
-This tool helps farmers, gardeners, and researchers quickly identify plant diseases, enabling **early detection**, **accurate diagnosis**, and **reduced crop losses**.  
+This tool helps farmers, gardeners, and researchers quickly identify plant diseases, enabling **early detection**, **accurate diagnosis**, and **reduced crop losses**.
 
 ---
 
@@ -10,16 +10,17 @@ This tool helps farmers, gardeners, and researchers quickly identify plant disea
 - Upload an image of a plant leaf.  
 - AI-powered disease prediction with confidence score.  
 - Covers **38 plant disease classes** (healthy + infected).  
-- Simple, clean Streamlit interface.  
+- Simple, clean Streamlit interface.
 
 ---
 
-## Demo  
+## Demo
 <p align="center">
   <img src="assets/demo1.jpg" width="30%" />
   <img src="assets/demo2.jpg" width="30%" />
   <img src="assets/demo3.jpg" width="30%" />
 </p>
+
 ---
 
 ## Tech Stack
@@ -27,7 +28,7 @@ This tool helps farmers, gardeners, and researchers quickly identify plant disea
 - **TensorFlow / Keras** (InceptionV3 model)  
 - **Streamlit** (Web app)  
 - **Pillow** (Image preprocessing)  
-- **NumPy**  
+- **NumPy**
 
 ---
 
@@ -52,7 +53,7 @@ Plant-Disease-Detection/
 ---
 
 ## Dataset
-The model was trained using the [Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) from **Kaggle**, which contains healthy and infected leaf images across multiple plant species.  
+The model was trained using the [Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) from **Kaggle**, which contains healthy and infected leaf images across multiple plant species.
 
 ---
 
@@ -115,4 +116,3 @@ This project is licensed under the **MIT License** – feel free to use and modi
 * TensorFlow/Keras for deep learning framework.
 * Streamlit for rapid app development.
 
-```
